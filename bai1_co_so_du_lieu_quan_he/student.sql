@@ -28,7 +28,3 @@ where id =6;
 delete from student
 
 truncate table student;
-
-drop table student;
-​
-drop database codegym_management;
