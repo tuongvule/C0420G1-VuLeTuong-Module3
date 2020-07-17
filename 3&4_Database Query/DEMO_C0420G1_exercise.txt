@@ -1,0 +1,15 @@
+Bài tập dò bài cũ
+1. Các bước chuẩn hóa NF?
+2. Có bao nhiêu loại JOIN? Ý nghĩa?
+3. Lấy ra thông tin của các học viên đang theo học tại lớp, và lớp đó do giảng viên nào dạy?
+4. Lấy ra tất cả thông tin giảng viên hiện đang không dạy lớp nào?
+------------------------------
+Bài tập bài mới
+1. Lấy ra danh sách tất cả học viên, giảng viên đang làm việc và học tập tại CodeGym
+2. Lấy ra danh sách các học viên không trùng tên nhau
+3. Lấy ra 2 học viên đầu tiên được sắp xếp theo alphabet
+4. Lấy ra tất cả thông tin giảng viên hiện đang không dạy lớp nào?
+------------------------------
+Bài tập ôn tập
+1. Tính tổng số học viên của mỗi lớp (kể cả lớp không có học viên học)?
+2. Tính tổng số giảng viên đang dạy mỗi lớp (kể cả giảng viên không dạy lớp nào)?
