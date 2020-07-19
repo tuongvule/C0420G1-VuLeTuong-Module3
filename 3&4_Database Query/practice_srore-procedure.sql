@@ -1,8 +1,8 @@
 delimiter //
-create procedure findAllCustomers()
-begin
-select * from customers;
-end //
+CREATE PROCEDURE findAllCustomers()
+BEGIN
+SELECT * FROM customers;
+END //
 delimiter ;
 
 /*
@@ -14,7 +14,7 @@ CREATE PROCEDURE findAllCustomers() dùng để khai báo tạo một Procedure 
 */
 
 -- Cách gọi procedure
-call findAllCustomers();
+CALL findAllCustomers();
 
 -- Sửa procedure Trong Mysql không cung cấp lệnh sửa Stored
 --  nên thông thường chúng ta sẽ chạy lệnh tạo mới.
