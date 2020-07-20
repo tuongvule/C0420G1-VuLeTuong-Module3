@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p.one {
+            border-style: solid;
+            border-color: red;
+        }
+
+        p.two {
+            border-style: solid;
+            border-color: green;
+        }
+
+        p.three {
+            border-style: solid;
+            border-color: red green blue yellow;
+        }
+
+        p.aaa {
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dotted;
+            border-left-style: solid;
+        }
+    </style>
+</head>
+<body>
+<h2>Sử dụng thuộc tính border-color</h2>
+<p>Thuộc tính này dùng để chỉ định màu sắc cho các đường viền.</p>
+
+<p class="one">Đường viền nét liền màu đỏ</p>
+<p class="two">Đường viền nét liền màu xanh</p>
+<p class="three">Đường viền nét liền nhiều màu</p>
+<p><b>Lưu ý:</b> Thuộc tính "border-color" không có tác dụng nếu sử dụng
+    nó mà không dùng kèm thuộc tính "border-style"
+    để thiết lập kiểu đường viền trước đó.</p>
+
+<p class="aaa">Một đường viền có 2 kiểu khác nhau.</p>
+</body>
+</html>

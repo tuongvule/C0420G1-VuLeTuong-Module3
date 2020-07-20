@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    Các phông chữ trong CSS-->
+<!--    Trong CSS, có hai loại phông chữ (font family):-->
+
+<!--    generic family - một nhóm các phông chữ trông tương tự nhau (như "Serif" hoặc "Monospace")-->
+<!--    font family - một phông chữ cụ thể (như "Times New Roman" hoặc "Arial")-->
+<!--    Font Family-->
+<!--    Font family (Phông chữ) của văn bản được thiết lập bởi thuộc tính font-family .-->
+<!--    Thuộc tính font-family cần một số tên phông chữ như là một hệ thống "dự phòng". Nếu trình duyệt không hỗ trợ phông chữ đầu tiên, nó sẽ thử phông chữ tiếp theo, và cứ như vậy. Bắt đầu với phông chữ bạn muốn, và kết thúc với một "generic family", để trình duyệt tự chọn một phông chữ tương tự "generic family", nếu phông chữ khác không có sẵn.-->
+<!--    Lưu ý: Nếu tên của một phông chữ nhiều hơn một từ, nó phải đặt trong dấu nháy kép, ví dụ: "Times New Roman".-->
+<!--    Nếu chỉ định nhiều hơn một phông chữ, thì dùng dấu phẩy (,) để ngăn cách giữa chúng:-->
+    <style>
+        p.serif {
+            font-family: "Times New Roman", Times, serif;
+
+        }
+
+        p.sansserif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>CSS font-family</h1>
+<p class="serif">Đoạn văn bản này sử dụng phông chữ Times New Roman.</p>
+<p class="sansserif">Đoạn văn bản này sử dụng phông chữ Arial.</p>
+</body>
+</html>
