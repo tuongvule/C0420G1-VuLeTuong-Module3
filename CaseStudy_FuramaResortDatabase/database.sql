@@ -1,3 +1,4 @@
+drop database if exists furama_resort_management;
 create database furama_resort_management;
 
 use furama_resort_management;
@@ -50,7 +51,7 @@ create table departments(
  -- 4. Tạo bảng Nhân viên
  
  create table employees(
-	id_staff int primary key auto_increment,
+	id_employee int primary key auto_increment,
     `name` varchar(50),
     birthday date,
     id_card varchar(45),
@@ -66,14 +67,13 @@ create table departments(
     foreign key (id_department) references departments(id_department)
     );
     
-alter table employees
-	rename column id_staff to id_employee;
+
 	
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Vu Le Tuong', '2000-12-12', '123654987', '9000$', '0903736122', 'tuongvule@gmai.com', 'Quang Nam', '1', '1', '1');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Nguyen Van Huy', '1999-11-24', '111222333', '4567$', '0900876456', 'nguyenvanhuy@gmai.com', 'Quang Binh', '2', '2', '3');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Vo Duc Viet', '1998-9-24', '222333444', '9875$', '0789123765', 'voducviet@gmai.com', 'Quang Binh', '1', '2', '4');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Duong Nhat Huy', '1997-4-13', '999888555', '4563$', '2347765123', 'duongnhathuy@gmail.com', 'DaNang', '2', '1', '4');
-INSERT INTO `furama_resort_management`.`employees` (`id_staff`, `name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES (NULL, 'Pham Vu', '1996-8-31', '222777444', '1235$', '0123987643', 'phamvu@gmai.com', 'Binh Thuan', '3', '3', '1');
+INSERT INTO `furama_resort_management`.`employees` ( `name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Pham Vu', '1996-8-31', '222777444', '1235$', '0123987643', 'phamvu@gmai.com', 'Binh Thuan', '3', '3', '1');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Huynh Van Thinh', '2000-3-22', '765893164', '2345$', '0909080706', 'huynhvanthinh@gmai.com', 'Quang Ngai', '6', '3', '2');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Nguyen Van Hieu', '2003-6-18', '123666887', '9876$', '0134765876', 'nguyenvanhieu@gmail.com', 'Ben Tre', '5', '4', '3');
 INSERT INTO `furama_resort_management`.`employees` (`name`, `birthday`, `id_card`, `salary`, `phone_number`, `email`, `address`, `id_position`, `id_degree`, `id_department`) VALUES ('Nguyen Hai Dang', '2004-9-26', '987654321', '7653$', '0902878654', 'nguyenhaidang@gmail.com', 'Hau Giang', '4', '2', '3');
@@ -116,6 +116,8 @@ INSERT INTO `furama_resort_management`.`customers` (`name`, `birthday`, `id_card
 INSERT INTO `furama_resort_management`.`customers` (`name`, `birthday`, `id_card`, `phone_number`, `email`, `address`, `id_type_of_customer`) VALUES ('Nguyen Tien Quoc', '1940-2-4', '237548918', '0907645286', 'nguyentienquoc@gmai.com', 'Da Nang', '1');
 INSERT INTO `furama_resort_management`.`customers` (`name`, `birthday`, `id_card`, `phone_number`, `email`, `address`, `id_type_of_customer`) VALUES ('Tran Trung Quan', '2001-3-19', '275982875', '0123485671', 'trantrungquan@gmail.com', 'Quang Tri', '2');
 
+
+	
 -- 7. Tạo bảng Kiểu thuê
 
 create table type_of_rents(
@@ -201,11 +203,12 @@ create table contracts(
     );
 
 INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('2', '2020-1-15', '2020-1-24', '1200', '7400', '2', '6', '2');
-INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('3', '2020-1-15', '2020-1-24', '1200', '7400', '3', '11', '3');
-INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('4', '2020-1-15', '2020-1-24', '1200', '9000', '3', '25', '4');
-INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('5', '2020-3-20', '2020-3-28', '1200', '7100', '4', '6', '5');
-INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('6', '2020-3-20', '2020-3-26', '1000', '7200', '5', '11', '6');
-INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('7', '2020-4-15', '2020-4-25', '1000', '8000', '6', '11', '7');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('3', '2020-1-15', '2020-1-24', '1200', '7400', '3', '8', '3');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('4', '2020-1-15', '2020-1-24', '1200', '9000', '3', '6', '4');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('5', '2020-3-20', '2020-3-28', '1200', '7100', '4', '1', '5');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('6', '2020-3-20', '2020-3-26', '1000', '7200', '5', '7', '6');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('7', '2020-4-15', '2020-4-25', '1000', '8000', '6', '7', '7');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('8', '2020-5-15', '2020-5-25', '1000', '8000', '6', '7', '7');
 
 
 -- 12. Tạo bảng Hợp đồng chi tiết
