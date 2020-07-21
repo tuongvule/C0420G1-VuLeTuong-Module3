@@ -199,7 +199,14 @@ create table contracts(
     foreign key (id_customer) references customers(id_customer),
     foreign key (id_service) references services(id_service)
     );
-  
+
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('2', '2020-1-15', '2020-1-24', '1200', '7400', '2', '6', '2');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('3', '2020-1-15', '2020-1-24', '1200', '7400', '3', '11', '3');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('4', '2020-1-15', '2020-1-24', '1200', '9000', '3', '25', '4');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('5', '2020-3-20', '2020-3-28', '1200', '7100', '4', '6', '5');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('6', '2020-3-20', '2020-3-26', '1000', '7200', '5', '11', '6');
+INSERT INTO `furama_resort_management`.`contracts` (`id_contract`, `contract_start_date`, `contract_end_date`, `deposit`, `total_money`, `id_employee`, `id_customer`, `id_service`) VALUES ('7', '2020-4-15', '2020-4-25', '1000', '8000', '6', '11', '7');
+
 
 -- 12. Tạo bảng Hợp đồng chi tiết
 
