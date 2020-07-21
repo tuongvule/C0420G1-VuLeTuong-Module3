@@ -222,7 +222,7 @@ create table detailed_contracts(
     foreign key (id_accompanied_service) references accompanied_services (id_accompanied_service)
     );
     
-drop table detailed_contracts;
+
     
     
     

@@ -1,46 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>[Bài tập] Tạo layout với RWD</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-        #header{
+        body{
+            font-family: Arial, Tahoma;
+            font-size: 12px;
+        }
+        #head{
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            clear: both;
+        }
+        #head a{
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        #login{
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        /*Thuộc tính position có giá trị là fixed. Đây là cách để giữ cho menu cố định tại một vị trí
+         Thuộc tính top có giá trị là 0. Nó xác định vị trí trên cùng của trình duyệt.
+         Thuộc tính width có giá trị là 100%. Nó xác định độ rộng của menu sẽ bằng độ rộng của trìn*/
 
-            background: black;
-            display: inline;
+        #left {
+            width: 150px;
+            min-height: 400px;
+            border: 1px solid #CDCDCD;
+            float:left;
+            background-color: grey;
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+        #left, #left ul, #left li{
+            padding: 0;
+            margin: 0;
+        }
+        #left li{
+            list-style: none;
+            position: relative;
+            width: 100px;
+            height: 30px;
+            padding: 0 20px;
+            background-color: black;
+            line-height: 30px;
+            cursor: pointer;
+
+        }
+        #left li a{
+            text-decoration: none;
+            color: white;
         }
 
+        #left li:hover{
+            background-color: red;
+        }
+
+        #content{
+            width: 500px;
+            min-height: 400px;
+            border: 1px solid #CDCDCD;
+            float:left;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin-top: 30px;
+            height: 1500px ;/*used in this example to enable scrolling*/
+            padding: 16px;
+        }
+
+
+
+        #right{
+            width: 234px;
+            min-height: 400px;
+            border: 1px solid #CDCDCD;
+            float:right;
+            margin-bottom: 5px;
+            background: grey;
+        }
+        #right {
+            width: 150px;
+            min-height: 400px;
+            border: 1px solid #CDCDCD;
+            float:left;
+            background-color: grey;
+            margin-bottom: 5px;
+        }
+        #right, #right ul, #right li{
+            padding: 0;
+            margin: 0;
+        }
+        #right li{
+            list-style: none;
+            position: relative;
+            width: 100px;
+            height: 30px;
+            padding: 0 20px;
+            background-color: black;
+            line-height: 30px;
+            cursor: pointer;
+
+        }
+        #right li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #right li:hover{
+            background-color: red;
+        }
+        #footer{
+            height: 50px;
+            clear: both;
+            border: 1px solid #CDCDCD;
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
-<div id="header">
-    <ul>
-        <li>Logo</li>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
-        <p>Login</p>
-    </ul>
-</div>
-<div class="main">
+<div id="main">
+    <div id="head">
+        <a href="#logo">Logo</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a id="login" href="#login">Login</a>
+    </div>
     <div id="left">
-        <ul id="ul1">
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
         </ul>
     </div>
     <div id="content">
-        <h2>Welcome</h2>
-        <p>Lorern ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim veniam, quits nostrud exrcitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Excepteur sint occaecat cupidatat nomn proident, sunt in culpa qui ffficia deserunt
-        mliiit anim id est laborum con.</p>
-        <h3>Test</h3>
-        <p>Lorem ipsum....</p>
+        <h2>Welcome to King's </h2>
+        <p>Welcome to King's College London. Whether you're a new undergraduate student starting in September, a postgraduate student continuing your study at King's, or a PhD candidate starting your course later in the year, these pages will give you the information you need to get started at King's.</p>
+        <p>Wherever you are in the world, our commitment to providing the very highest quality education is as strong as ever. Our tutors are looking forward to meeting you and welcoming you to our global community of learners.</p>
+        <h3>A Virtual Welcome - September 2020</h3>
+        <p>Welcome to King's takes place each year for all new students beginning their studies in September. This year Welcome to King's will take on a new virtual presence which offers a range of events and induction activities for our students across the globe. We want to ensure our students have the opportunity to participate in as many events as possible which is why Welcome to King's 2020 will take place over a two week period from the 14th to the 25th of September. </p>
+        <p>We encourage new students to regularly check the coronavirus pages on our website for the latest updates and advice.</p>
+    </div>
+    <div id="right">
+        <ul>
+            <li>ADS</li>
+            <li>ADS</li>
+        </ul>
+    </div>
+    <div id="footer">
     </div>
 </div>
-<div id="footer"> </div>
 </body>
 </html>
