@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="display_list_of_customer:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdfce2ee-1814-4f53-b4c0-59d29d36753b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/artifacts/C0420G1_VuLeTuong_Module3_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c04g-web-overview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c04g-web-overview/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1f78wlquZzWeY5sXOR5RUQWohyW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="exercise_display_list_of_customer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="exercise_display_list_of_customer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="display_list_of_customer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_display_list_of_customer" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51533" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="display_list_of_customer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdfce2ee-1814-4f53-b4c0-59d29d36753b" name="Default Changelist" comment="" />
+      <created>1595558011924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595558011924</updated>
+      <workItem from="1595558015467" duration="1990000" />
+      <workItem from="1595560042592" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595558287832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1595558287832" />
+    <state x="579" y="170" key="FileChooserDialogImpl" timestamp="1595560083045">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="170" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1595560083045" />
+    <state width="1069" height="206" key="GridCell.Tab.0.bottom" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.0.center" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.0.left" timestamp="1595560006838">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1595560006838" />
+    <state width="1069" height="206" key="GridCell.Tab.0.right" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.1.bottom" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.1.center" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.1.left" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.1.right" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.2.bottom" timestamp="1595560006840">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1595560006840" />
+    <state width="1069" height="206" key="GridCell.Tab.2.center" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.2.left" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state width="1069" height="206" key="GridCell.Tab.2.right" timestamp="1595560006839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="206" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1595560006839" />
+    <state x="182" y="12" key="new project wizard" timestamp="1595560088419">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="12" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1595560088419" />
+  </component>
+</project>

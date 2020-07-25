@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="copy_tien_tutor:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/copy_tien_tutor_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="copy_tien_tutor/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="copy_tien_tutor" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -23,7 +23,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../10_JSTL/jstl-1.2.jar/jstl-1.2.jar!/" />
+          <root url="jar://D:/Codegym/002-teach/02-theory-support/jsp/jsp-jstl/jstl-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dae5127b-b998-49b6-8a68-2127e88bfbb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/artifacts/copy_tien_tutor_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/copy_tien_tutor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../display_list_of_customer/.idea/display_list_of_customer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/ex_product_discount_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/web/ketqua.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex_sum2num/exercise_display_list_of_customer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/artifacts/practice_hien_thi_loi_chao_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/practice_hien_thi_loi_chao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/practice_show_system_time.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/artifacts/C0420G1_VuLeTuong_Module3_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c04g-web-overview.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c04g-web-overview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c04g-web-overview/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1f9t3GrpeR3YJA4RaRtrtICuEqX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="untitled:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/untitled_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="untitled:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae5127b-b998-49b6-8a68-2127e88bfbb4" name="Default Changelist" comment="" />
+      <created>1595641934215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595641934215</updated>
+      <workItem from="1595641937871" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
