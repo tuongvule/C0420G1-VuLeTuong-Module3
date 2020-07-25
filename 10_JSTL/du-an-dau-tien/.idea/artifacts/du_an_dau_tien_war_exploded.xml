@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="du-an-dau-tien" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../jstl-1.2.jar/jstl-1.2.jar" />
+        </element>
       </element>
     </root>
   </artifact>

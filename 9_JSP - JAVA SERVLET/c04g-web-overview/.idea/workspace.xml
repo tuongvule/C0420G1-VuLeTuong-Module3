@@ -25,48 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919a168a-c04a-4cab-b061-331cb39fe6a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/artifacts/copy_tien_tutor_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/copy_tien_tutor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/src/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../copy_tien_tutor/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../display_list_of_customer/.idea/display_list_of_customer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/ex_product_discount_calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/src/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex_product_discount_calculator/web/ketqua.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex_sum2num/exercise_display_list_of_customer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/artifacts/practice_hien_thi_loi_chao_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/practice_hien_thi_loi_chao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/src/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_hien_thi_loi_chao/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/practice_show_system_time.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/src/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice_show_system_time/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/artifacts/C0420G1_VuLeTuong_Module3_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c04g-web-overview.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/c04g-jstl/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/src/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/du-an-dau-tien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/du-an-dau-tien.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../out/artifacts/C0420G1_VuLeTuong_Module3_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +160,7 @@
       <workItem from="1595556546381" duration="1285000" />
       <workItem from="1595565631542" duration="9000" />
       <workItem from="1595577427630" duration="327000" />
-      <workItem from="1595641399067" duration="788000" />
+      <workItem from="1595641399067" duration="1414000" />
     </task>
     <servers />
   </component>

@@ -21,38 +21,38 @@
             <th>Date of birth</th>
             <th>Type</th>
         </tr>
-<%--        <%--%>
-<%--            List<Student> studentList = (List<Student>) request.getAttribute("studentListServlet");--%>
-<%--            for (Student student: studentList) {--%>
-<%--        %>--%>
-<%--            <tr>--%>
-<%--                <td><%=student.getId()%></td>--%>
-<%--                <td><%=student.getName()%></td>--%>
-<%--                <td><%=student.getDateOfBirth()%></td>--%>
-<%--            </tr>--%>
-<%--        <%--%>
-<%--            }--%>
-<%--        %>--%>
-        <c:forEach var="student" items="${studentListServlet}">
+        <%
+            List<Student> studentList = (List<Student>) request.getAttribute("studentListServlet");
+            for (Student student: studentList) {
+        %>
             <tr>
-                <td><c:out value="${student.id}"></c:out></td>
-                <td><c:out value="${student.name}"></c:out></td>
-                <td><c:out value="${student.dateOfBirth}"></c:out></td>
-                <td>
-                    <c:choose>
-                        <c:when test="${student.mark > 8}">
-                            Very Good
-                        </c:when>
-                        <c:when test="${student.mark < 8 && student.mark > 5}">
-                            Good
-                        </c:when>
-                        <c:when test="${student.mark < 5}">
-                            Poor
-                        </c:when>
-                    </c:choose>
-                </td>
-            </tr>
-        </c:forEach>
+                <td><%=student.getId()%></td>
+                <td><%=student.getName()%></td>
+                <td><%=student.getDateOfBirth()%>
+
+        <%
+            }
+        %>
+<%--        <c:forEach var="student" items="${studentListServlet}">--%>
+<%--            <tr>--%>
+<%--                <td><c:out value="${student.id}"></c:out></td>--%>
+<%--                <td><c:out value="${student.name}"></c:out></td>--%>
+<%--                <td><c:out value="${student.dateOfBirth}"></c:out></td>--%>
+<%--                <td>--%>
+<%--                    <c:choose>--%>
+<%--                        <c:when test="${student.mark > 8}">--%>
+<%--                            Very Good--%>
+<%--                        </c:when>--%>
+<%--                        <c:when test="${student.mark < 8 && student.mark > 5}">--%>
+<%--                            Good--%>
+<%--                        </c:when>--%>
+<%--                        <c:when test="${student.mark < 5}">--%>
+<%--                            Poor--%>
+<%--                        </c:when>--%>
+<%--                    </c:choose>--%>
+<%--                </td>--%>
+<%--            </tr>--%>
+<%--        </c:forEach>--%>
     </table>
 
     <c:out value="${inputUser}"></c:out>

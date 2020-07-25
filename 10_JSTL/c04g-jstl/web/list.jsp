@@ -21,18 +21,18 @@
             <th>Date of birth</th>
             <th>Type</th>
         </tr>
-<%--        <%--%>
-<%--            List<Student> studentList = (List<Student>) request.getAttribute("studentListServlet");--%>
-<%--            for (Student student: studentList) {--%>
-<%--        %>--%>
-<%--            <tr>--%>
-<%--                <td><%=student.getId()%></td>--%>
-<%--                <td><%=student.getName()%></td>--%>
-<%--                <td><%=student.getDateOfBirth()%></td>--%>
-<%--            </tr>--%>
-<%--        <%--%>
-<%--            }--%>
-<%--        %>--%>
+<%--&lt;%&ndash;        &lt;%&ndash;%>--%>
+<%--&lt;%&ndash;            List<Student> studentList = (List<Student>) request.getAttribute("studentListServlet");&ndash;%&gt;--%>
+<%--&lt;%&ndash;            for (Student student: studentList) {&ndash;%&gt;--%>
+<%--&lt;%&ndash;        %>&ndash;%&gt;--%>
+<%--&lt;%&ndash;            <tr>&ndash;%&gt;--%>
+<%--&lt;%&ndash;                <td><%=student.getId()%></td>&ndash;%&gt;--%>
+<%--&lt;%&ndash;                <td><%=student.getName()%></td>&ndash;%&gt;--%>
+<%--&lt;%&ndash;                <td><%=student.getDateOfBirth()%>&ndash;%&gt;--%>
+
+<%--&lt;%&ndash;        &lt;%&ndash;%>--%>
+<%--&lt;%&ndash;            }&ndash;%&gt;--%>
+<%--&lt;%&ndash;        %>--%>
         <c:forEach var="student" items="${studentListServlet}">
             <tr>
                 <td><c:out value="${student.id}"></c:out></td>
