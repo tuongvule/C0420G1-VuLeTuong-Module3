@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed25a742-b044-45ff-a822-1a48dd03b403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/.idea/artifacts/ex_ung_dung_calculator_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/ex-ung-dung-calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/src/Servlet_calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex-ung-dung-calculator/web/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/.idea/artifacts/ex_show_list_of_customers_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/ex_show_list_of_customers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/ex_show_list_of_customers/web/showCustomerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_JSTL/servlet-calculator-master/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_JSTL/c04g-jstl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10_JSTL/c04g-jstl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_JSTL/du-an-dau-tien/out/artifacts/du_an_dau_tien_war_exploded/showlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10_JSTL/du-an-dau-tien/out/artifacts/du_an_dau_tien_war_exploded/showlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_JSTL/du-an-dau-tien/web/showlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/10_JSTL/du-an-dau-tien/web/showlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_JSP - JAVA SERVLET/c04g-web-overview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/9_JSP - JAVA SERVLET/c04g-web-overview/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_FuramaResortDatabase/query_furama_resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_FuramaResortDatabase/query_furama_resort.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fE8iUwtuAmbBlvzfr1YsLmWFx3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed25a742-b044-45ff-a822-1a48dd03b403" name="Default Changelist" comment="" />
+      <created>1595772019880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595772019880</updated>
+      <workItem from="1595772023544" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

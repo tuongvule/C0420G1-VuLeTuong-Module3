@@ -25,10 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="919a168a-c04a-4cab-b061-331cb39fe6a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../10_JSTL/c04g-jstl/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/src/Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/du-an-dau-tien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/du-an-dau-tien.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/.idea/artifacts/ex_show_list_of_customers_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/ex_show_list_of_customers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/src/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10_JSTL/ex_show_list_of_customers/web/showCustomerList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_JSTL/c04g-jstl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_JSTL/c04g-jstl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/out/artifacts/du_an_dau_tien_war_exploded/showlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/out/artifacts/du_an_dau_tien_war_exploded/showlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/web/showlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../10_JSTL/du-an-dau-tien/web/showlist.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../10_JSTL/jstl-1.2.jar/jstl-1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -161,6 +170,7 @@
       <workItem from="1595565631542" duration="9000" />
       <workItem from="1595577427630" duration="327000" />
       <workItem from="1595641399067" duration="1414000" />
+      <workItem from="1595733522280" duration="47000" />
     </task>
     <servers />
   </component>
@@ -177,6 +187,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="249" key="#Tomcat_Server" timestamp="1595556584437">

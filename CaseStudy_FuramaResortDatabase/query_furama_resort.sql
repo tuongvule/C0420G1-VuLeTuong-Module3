@@ -137,6 +137,8 @@ group by cus.name;
 /*13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các 
 	Khách hàng đã đặt phòng. (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).*/
     
+    
+    
 select acs.id_accompanied_service, acs.name_accompanied_service, count(acs.id_accompanied_service)
    from accompanied_services acs
    join detailed_contracts dc on dc.id_accompanied_service = acs.id_accompanied_service
@@ -172,22 +174,34 @@ having (count(e.name)) >=3;
 /*17.	Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ 
 		Platinium lên Diamond, chỉ cập nhật những khách hàng đã từng đặt phòng với tổng
 		Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ. */
+update customers
+join(
+select type_of_customers.id_type_of_customer
+from contracts 
+inner join customers on customers.id_customer = contracts.id_customer
+inner join type_of_customers on type_of_customers.id_type_of_customer = customers.id_type_of_customer
+where name_type_of_customer="Diamond" and year(contracts.contract_start_date)=2020
+group by customers.name
+having sum(total_money) >10000
+)
+ v on customers.id_type_of_customer = v.id_type_of_customer
+set customers.id_type_of_customer = 6;
+
         
 /* 18.	Xóa những khách hàng có hợp đồng trước năm 2016 (chú ý ràngbuộc giữa các bảng).*/
 
 /* 19.	Cập nhật giá cho các Dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2019 lên gấp đôi*/
-update accompanied_services set price = price*2
-where id_accompanied_service in(
-select a.id_accompanied_service, a.name_accompanied_service, count(a.id_accompanied_service)
-from accompanied_services a
-inner join contracts c
-inner join detailed_contracts d
-where year(contract_start_date) = 2019
-group by a.name_accompanied_service
-having count(a.id_accompanied_service) > 10
-);
 
-
+update accompanied_services as a
+inner join (
+select d.id_accompanied_service
+from detailed_contracts d
+inner join contracts c on c.id_contract = d.id_contract
+where year(c.contract_start_date) = 2019
+group by d.id_accompanied_service
+having count(d.id_accompanied_service) = 10
+) v on v.id_accompanied_service = a.id_accompanied_service
+set a.price = a.price*2;
 
 /* 20.	Hiển thị thông tin của tất cả các Nhân viên và Khách hàng có trong hệ thống, 
 		thông tin hiển thị bao gồm ID (IDNhanVien, IDKhachHang), HoTen, Email, SoDienThoai, NgaySinh, DiaChi.*/

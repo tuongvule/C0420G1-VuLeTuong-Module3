@@ -34,12 +34,12 @@
 
 
 <% List<Student> studentList2 = (List<Student>) request.getAttribute("studentList");%>
-<% for (Student student :studentList2){%>
-    <%=student.getId()%>
-    <%=student.getName()%>
-    <%=student.getBirthday()%>
-    <br>
-<%} %>
+<%--<% for (Student student :studentList2){%>--%>
+<%--    <%=student.getId()%>--%>
+<%--    <%=student.getName()%>--%>
+<%--    <%=student.getBirthday()%>--%>
+<%--    <br>--%>
+<%--<%} %>--%>
 
 <table border="1">
     <tr>
@@ -70,7 +70,6 @@
             <td><c:out value="${student.name}"></c:out></td>
             <td><c:out value="${student.birthday}"></c:out></td>
             <td><c:out value="${student.mark}"></c:out></td>
-
             <td>
                 <c:choose>
                     <c:when test="${student.mark>9}"> Excellent</c:when>
