@@ -137,7 +137,14 @@ group by cus.name;
 /*13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các 
 	Khách hàng đã đặt phòng. (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).*/
     
-    
+    select a.name_accompanied_service , count(d.id_accompanied_service) as number_of_uses
+    from detailed_contracts d
+    join accompanied_services a on d.id_accompanied_service = a.id_accompanied_service
+    join contracts c on c.id_contract = d.id_contract
+    join customers cus on c.id_customer = cus.id_customer
+    group by a.name_accompanied_service
+    order by number_of_uses desc
+    limit 1;
     
 select acs.id_accompanied_service, acs.name_accompanied_service, count(acs.id_accompanied_service)
    from accompanied_services acs
@@ -170,6 +177,15 @@ where year(con.contract_start_date) in(2019, 2020)
 group by e.name
 having (count(e.name)) >=3;
 /*16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019. */
+delete from employees
+where id_employee not in(
+select id_employee 
+from
+(select e.id_employee
+from employees e
+join contracts c on e.id_employee = c.id_employee
+where year(c.contract_start_date) in (2017,2018,2019)) as c
+);
 
 /*17.	Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ 
 		Platinium lên Diamond, chỉ cập nhật những khách hàng đã từng đặt phòng với tổng
@@ -189,6 +205,15 @@ set customers.id_type_of_customer = 6;
 
         
 /* 18.	Xóa những khách hàng có hợp đồng trước năm 2016 (chú ý ràngbuộc giữa các bảng).*/
+
+delete from customers 
+where  id_customer in (
+select id_customer from
+(select cus.id_customer
+from customers cus
+join contracts con on con.id_customer = cus.id_customer
+where year(contract_start_date)<2016) as c
+);
 
 /* 19.	Cập nhật giá cho các Dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2019 lên gấp đôi*/
 
