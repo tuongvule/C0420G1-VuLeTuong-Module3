@@ -12,18 +12,15 @@
     <title>Create new customer</title>
     <style>
         .message{
-            color:green;
+            color: green;
         }
-    </style> <style>
-    .message{
-        color:green;
-    }
-</style>
+    </style>
+
 </head>
 <body>
-<h1>Create new customer</h1>
+<h1>Create New Customer</h1>
 <p>
-    <c:if test='${requestScope["message"] != null}'>
+    <c:if test='${requestScope["message"]!=null}'>
         <span class="message">${requestScope["message"]}</span>
     </c:if>
 </p>
@@ -35,16 +32,16 @@
         <legend>Customer information</legend>
         <table>
             <tr>
-                <td>Name: </td>
-                <td><input type="text" name="name" id="name"></td>
+                <td>Name:</td>
+                <td><input type="text" name="name" ></td>
             </tr>
             <tr>
-                <td>Email: </td>
-                <td><input type="text" name="email" id="email"></td>
+                <td>Email:</td>
+                <td><input type="text" name="email" ></td>
             </tr>
             <tr>
-                <td>Address: </td>
-                <td><input type="text" name="address" id="address"></td>
+                <td>Address</td>
+                <td><input type="text" name="address" ></td>
             </tr>
             <tr>
                 <td></td>

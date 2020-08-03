@@ -12,11 +12,11 @@ public class CustomerServicelmpl implements CustomerService {
     static {
         customers = new HashMap<>();
         customers.put(1,new Customer(1,"Kim","kim@gmail.com","Bình Sa"));
-        customers.put(2,new Customer(1,"Hiền","hien@gmail.com","Bình Sa"));
-        customers.put(3,new Customer(1,"Ngân","ngan@gmail.com","Bình Sa"));
-        customers.put(4,new Customer(1,"Tiến","tien@gmail.com","Bình Sa"));
-        customers.put(5,new Customer(1,"Phước","phuoc@gmail.com","Bình Sa"));
-        customers.put(6,new Customer(1,"Tường","tuong@gmail.com","Bình Sa"));
+        customers.put(2,new Customer(2,"Hiền","hien@gmail.com","Bình Sa"));
+        customers.put(3,new Customer(3,"Ngân","ngan@gmail.com","Bình Sa"));
+        customers.put(4,new Customer(4,"Tiến","tien@gmail.com","Bình Sa"));
+        customers.put(5,new Customer(5,"Phước","phuoc@gmail.com","Bình Sa"));
+        customers.put(6,new Customer(6,"Tường","tuong@gmail.com","Bình Sa"));
     }
     @Override
     public List<Customer> findAll() {
