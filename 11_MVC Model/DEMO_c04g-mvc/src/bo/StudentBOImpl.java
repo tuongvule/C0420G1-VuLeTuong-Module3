@@ -7,7 +7,7 @@ import model.Student;
 
 import java.util.List;
 
-public class StudentBOImpl implements StudentBO {
+public class  StudentBOImpl implements StudentBO {
 
     private StudentDAO studentDAO = new StudentDAOImpl();
 
