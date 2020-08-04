@@ -41,4 +41,17 @@ public class ProductDAOImpl implements ProductDAO{
     public void remove(Integer id) {
         productMap.remove(id);
     }
+
+    @Override
+    public List<Product> search(String name) {
+        List<Product> productList = new ArrayList<>(productMap.values());
+        List<Product> products = new ArrayList<>();
+        int size = productList.size();
+        for (int i = 0; i < size; i++) {
+            if (name.equals(productList.get(i).getName())){
+                products.add(productList.get(i));
+            }
+        }
+        return products;
+    }
 }

@@ -31,7 +31,7 @@
     </tr>
     <c:forEach var="product" items="${products}">
         <tr>
-            <td><a href="/productServlet?action=view">${product.name}</a></td>
+            <td><a href="/productServlet?action=view&id=${product.id}">${product.name}</a></td>
             <td>${product.price}</td>
             <td>${product.manufacturer}</td>
             <td>${product.description}</td>

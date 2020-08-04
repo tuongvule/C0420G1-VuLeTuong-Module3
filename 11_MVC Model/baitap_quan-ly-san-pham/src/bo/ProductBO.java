@@ -10,4 +10,5 @@ public interface ProductBO {
     Product  findById(Integer id);
     void update(Integer id, Product product);
     void remove(Integer id);
+    List<Product> search(String name);
 }

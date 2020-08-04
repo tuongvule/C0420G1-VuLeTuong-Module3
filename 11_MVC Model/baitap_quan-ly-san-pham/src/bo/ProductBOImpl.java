@@ -33,4 +33,9 @@ public class ProductBOImpl implements ProductBO {
     public void remove(Integer id) {
         this.productDAO.remove(id);
     }
+
+    @Override
+    public List<Product> search(String name) {
+        return this.productDAO.search(name);
+    }
 }
