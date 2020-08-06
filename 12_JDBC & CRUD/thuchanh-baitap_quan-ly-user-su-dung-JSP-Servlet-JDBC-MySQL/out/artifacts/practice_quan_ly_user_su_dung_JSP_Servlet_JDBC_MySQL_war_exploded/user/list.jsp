@@ -16,8 +16,14 @@
 <h1>User List</h1>
 <table border=0 style="width: 50%; border-collapse: collapse; color: blue">
     <tr>
+
+        <td><a href="/userServlet?action=test-use-tran"><input type="button" value="Test with tran"></a></td>
+        <td><a href="/userServlet?action=test-without-tran"><input type="button" value="without tran"></a></td>
+        <td><a href="/userServlet?action=permision"><input type="button" value="Permission"></a></td>
         <td><a href="/userServlet?action=create"><input type="button" value="Create New User"></a></td>
         <td><a href="/userServlet?action=search"><input type="button" value="Search User"></a></td>
+        <td><a href="/userServlet?action=search-by-country"><input type="button" value="Search user by country"></a></td>
+        <td><a href="/userServlet?action=user-list-sorted-by-name"><input type="button" value="User list sorted by name"></a></td>
     </tr>
 </table>
 <table>

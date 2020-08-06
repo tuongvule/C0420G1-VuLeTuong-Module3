@@ -105,10 +105,10 @@ public class ProductServlet extends HttpServlet {
     private void createNewProduct(HttpServletRequest request, HttpServletResponse response) {
         String name = request.getParameter("name");
         String price = request.getParameter("price");
-        String manufactuer = request.getParameter("manufacturer");
+        String manufacturer = request.getParameter("manufacturer");
         String description = request.getParameter("description");
         int id = (int) (Math.random()*1000);
-        Product product = new Product(id,name,price, manufactuer, description);
+        Product product = new Product(id,name,price, manufacturer, description);
 
         this.productBO.save(product);
         RequestDispatcher dispatcher = request.getRequestDispatcher("product/create.jsp");

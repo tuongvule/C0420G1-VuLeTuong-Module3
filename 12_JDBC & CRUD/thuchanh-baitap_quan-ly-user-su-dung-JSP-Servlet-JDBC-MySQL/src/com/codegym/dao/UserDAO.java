@@ -16,4 +16,14 @@ public interface UserDAO {
 
     void remove(int id);
 
+    public User getUserById(int id);
+
+    public void insertUserStore(User user) throws SQLException;
+
+    List<User> findByCountry(String country);
+    public void addUserTransaction(User user, int[] permision);
+    public void insertUpdateWithoutTransaction();
+    public void insertUpdateUseTransaction();
+    List<User> getAll();
+
 }
