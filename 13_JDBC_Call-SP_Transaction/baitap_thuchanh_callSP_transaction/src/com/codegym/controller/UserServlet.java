@@ -241,6 +241,7 @@ public class UserServlet extends HttpServlet {
     }
 
     private void listUser(HttpServletRequest request, HttpServletResponse response) {
+//        List<User> userList = userBO.getAll();
         List<User> userList = userBO.findAll();
         request.setAttribute("userList", userList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/list.jsp");

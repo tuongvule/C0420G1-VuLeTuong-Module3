@@ -497,37 +497,32 @@ public class UserDAOImpl implements UserDAO {
 //
 //    }
 //
-//    @Override
-//    public List<User> getAll() {
-//        User user = null;
-//        List<User> list = new ArrayList<>();
-//        String query = "{CALL get_user()}";
-//
-//        try {
-//            Connection connection = baseDAO.getConnection();
-//            CallableStatement callableStatement = connection.prepareCall(query);
-//            ResultSet rs = callableStatement.executeQuery();
-//            while (rs.next()) {
-//                Integer id = rs.getInt("id");
-//
-//                String name = rs.getString("name");
-//
-//                String email = rs.getString("email");
-//
-//                String country = rs.getString("country");
-//
-//                user = new User(id, name, email, country);
-//                list.add(user);
-//            }
-//            connection.close();
-//            return list;
-//
-//        } catch (SQLException e) {
-//
-//            e.printStackTrace();
-//        return null;
-//        }
-//
-//
-//    }
+    @Override
+    public List<User> getAll() {
+        User user = null;
+        List<User> list = new ArrayList<>();
+        String query = "{CALL get_user()}";
+
+        try {
+            Connection connection = baseDAO.getConnection();
+            CallableStatement callableStatement = connection.prepareCall(query);
+            ResultSet rs = callableStatement.executeQuery();
+            while (rs.next()) {
+                Integer id = rs.getInt("id");
+
+                String name = rs.getString("name");
+
+                String email = rs.getString("email");
+
+                String country = rs.getString("country");
+
+                user = new User(id, name, email, country);
+                list.add(user);
+            }
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

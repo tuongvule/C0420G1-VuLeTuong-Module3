@@ -24,6 +24,6 @@ public interface UserDAO {
 //    public void addUserTransaction(User user, int[] permision);
 //    public void insertUpdateWithoutTransaction();
 //    public void insertUpdateUseTransaction();
-//    List<User> getAll();
+    List<User> getAll();
 
 }

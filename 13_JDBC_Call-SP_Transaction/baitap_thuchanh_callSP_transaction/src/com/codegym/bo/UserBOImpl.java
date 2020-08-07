@@ -1,6 +1,5 @@
 package com.codegym.bo;
 
-import com.codegym.dao.UserCallDao;
 import com.codegym.dao.UserDAO;
 import com.codegym.dao.UserDAOImpl;
 import com.codegym.model.User;
@@ -10,11 +9,12 @@ import java.util.List;
 
 public class UserBOImpl implements UserBO{
     private UserDAO userDAO = new UserDAOImpl();
-    private UserDAO userCallDao = new UserCallDao();
+
     @Override
     public List<User> findAll()
     {
-        return this.userCallDao.findAll();
+//        return this.userDAO.findAll();
+        return this.userDAO.getAll();
     }
 
     @Override
@@ -57,10 +57,10 @@ public class UserBOImpl implements UserBO{
 //        this.userDAO.insertUpdateUseTransaction();
 //    }
 //
-//    @Override
-//    public List<User> getAll() {
-//        return this.userDAO.getAll();
-//    }
+    @Override
+    public List<User> getAll() {
+        return this.userDAO.getAll();
+    }
 
     @Override
     public User getUserById(int id) {
