@@ -32,6 +32,7 @@ public class UserDAOImpl implements UserDAO {
     @Override
     public List<User> findAll() {
         List<User> userList = new ArrayList<>();
+
         try {
             PreparedStatement preparedStatement =
                     this.baseDAO.getConnection().prepareStatement(FIND_ALL_SQL);

@@ -20,6 +20,9 @@ public class Note {
         this.content = content;
     }
 
+    public Note(String title, String content, int typeId) {
+    }
+
     public Integer getNoteId() {
         return noteId;
     }

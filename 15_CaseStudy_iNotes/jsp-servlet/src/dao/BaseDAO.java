@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class BaseDAO {
     private Connection connection;
-    private String jdbcURL = "jdbc:mysql://localhost:3306/iNotes?verifyServerCertificate=false&useSSL=true";
+    private String jdbcURL = "jdbc:mysql://localhost:3306/iNotes";
     private String jdbcUsername = "root";
     private String jdbcPassword = "12345678";
 

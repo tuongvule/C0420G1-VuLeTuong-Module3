@@ -26,17 +26,27 @@ public class NoteBOImpl implements NoteBO{
     }
 
     @Override
+    public List<Note> sortNoteByTitle() {
+        return this.noteDAO.sortNoteByTitle();
+    }
+
+    @Override
     public List<Note> findByTitle(String title) {
         return this.noteDAO.findByTitle(title);
     }
 
     @Override
-    public void update(int id, Note note) {
-        this.noteDAO.save(note);
+    public void edit(int id, Note note) {
+        this.noteDAO.edit(id,note);
     }
 
     @Override
-    public void remove(int id) {
-        this.noteDAO.remove(id);
+    public void remove(int idNote) {
+        this.noteDAO.remove(idNote);
+    }
+
+    @Override
+    public Note findByNoteId(Integer noteId) {
+        return this.noteDAO.findByNoteId(noteId);
     }
 }
