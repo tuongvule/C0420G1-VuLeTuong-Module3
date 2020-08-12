@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
+        <title>Furama</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+            .menu ul li{
+                margin-right: 10%;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                // Activate tooltips
+                $('[data-toggle="tooltip"]').tooltip();
+                // Filter table rows based on searched term
+                $("#search").on("keyup", function() {
+                    var term = $(this).val().toLowerCase();
+                    $("table tbody tr").each(function(){
+                        $row = $(this);
+                        var name = $row.find("td:nth-child(2)").text().toLowerCase();
+                        console.log(name);
+                        if(name.search(term) < 0){
+                            $row.hide();
+                        } else{
+                            $row.show();
+                        }
+                    });
+                });
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" ></script>
+        <!-- JS tạo nút bấm di chuyển trang start -->
+        <script src="http://1892.yn.lt/blogger/JQuery/Pagging/js/jquery.twbsPagination.js" type="text/javascript"></script>
+        <!-- JS tạo nút bấm di chuyển trang end -->
+        <script type="text/javascript">
+            $(function () {
+                var pageSize = 7; // Hiển thị 7 sản phẩm trên 1 trang (nghĩa là 7 rows)
+                showPage = function (page) {
+                    $(".contentPage").hide();
+                    $(".contentPage").each(function (n) {
+                        if (n >= pageSize * (page - 1) && n < pageSize * page)
+                            $(this).show();
+                    });
+                }
+                showPage(1);
+                ///** Cần truyền giá trị vào đây **///
+                var totalRows = 40; // Tổng số sản phẩm hiển thị
+                var btnPage = 5; // Số nút bấm hiển thị di chuyển trang
+                var iTotalPages = Math.ceil(totalRows / pageSize);
+                var obj = $('#pagination').twbsPagination({
+                    totalPages: iTotalPages,
+                    visiblePages: btnPage,
+                    onPageClick: function (event, page) {
+                        console.info(page);
+                        showPage(page);
+                    }
+                });
+                console.info(obj.data());
+            });
+        </script>
+        <style>
+            body {
+                color: #566787;
+                background: #f7f5f2;
+                font-family: 'Roboto', sans-serif;
+            }
+            .table-responsive {
+                margin: 30px 0;
+            }
+            .table-wrapper {
+                min-width: 1000px;
+                background: #fff;
+                padding: 20px 25px;
+                border-radius: 3px;
+                box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            }
+            .table-title {
+                color: #fff;
+                background: #40b2cd;
+                padding: 16px 25px;
+                margin: -20px -25px 10px;
+                border-radius: 3px 3px 0 0;
+            }
+            .table-title h2 {
+                margin: 5px 0 0;
+                font-size: 24px;
+            }
+            .search-box {
+                position: relative;
+                float: right;
+            }
+            .search-box .input-group {
+                min-width: 300px;
+                position: absolute;
+                right: 0;
+            }
+            .search-box .input-group-addon, .search-box input {
+                border-color: #ddd;
+                border-radius: 0;
+            }
+            .search-box input {
+                height: 34px;
+                padding-right: 35px;
+                background: #f4fcfd;
+                border: none;
+                border-radius: 2px !important;
+            }
+            .search-box input:focus {
+                background: #fff;
+            }
+            .search-box input::placeholder {
+                font-style: italic;
+            }
+            .search-box .input-group-addon {
+                min-width: 35px;
+                border: none;
+                background: transparent;
+                position: absolute;
+                right: 0;
+                z-index: 9;
+                padding: 6px 0;
+            }
+            .search-box i {
+                color: #a0a5b1;
+                font-size: 19px;
+                position: relative;
+                top: 2px;
+            }
+            table.table {
+                table-layout: fixed;
+                margin-top: 15px;
+            }
+            table.table tr th, table.table tr td {
+                border-color: #e9e9e9;
+            }
+            table.table th i {
+                font-size: 13px;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+            table.table th:first-child {
+                width: 60px;
+            }
+            table.table th:last-child {
+                width: 120px;
+            }
+            table.table td a {
+                color: #a0a5b1;
+                display: inline-block;
+                margin: 0 5px;
+            }
+            table.table td a.view {
+                color: #03A9F4;
+            }
+            table.table td a.edit {
+                color: #FFC107;
+            }
+            table.table td a.delete {
+                color: #E34724;
+            }
+            table.table td i {
+                font-size: 19px;
+            }
+            a {
+                color: seashell;
+                text-decoration: none;
+                background-color: transparent;
+            }
+
+        </style>
+    </head>
+</head>
+<body style="background-image: url('https://www.travelvietnam.com/images/photos/asia/vietnam-danang-furama-resort-danang-3.jpg?t=1594914357')">
+<div class="header">
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-3">
+                <img style="width: 25%;padding-top: 0px" src="https://phuongviethcm.com/wp-content/uploads/2019/07/FURAMA.png">
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3" style="display: flex;align-items: center">
+                <h3 style="color: darkgoldenrod">Vũ Lê Tường</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end header-->
+<!--<div class="menu" style="background-color: #2d3338;height: 50px">-->
+<div class="menu" style="background-color: sienna;height: 50px">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12" >
+                <ul style="list-style: none;display:flex;flex-direction: row;padding-top: 12px">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Employee</a></li>
+                    <li><a href="">Customer</a></li>
+                    <li>  <a href="">Service</a></li>
+                    <li><a href="">Contract</a></li>
+                    <li class="input-group" style="margin: -6px">
+                        <input type="text" id="search" class="form-control" placeholder="Search by Name">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end menu-->
+<br><br>
+<div>
+    <div class="content" style="height: 71vh">
+        <div class="container-fluid">
+            <div class="row" >
+                <div class="col-2" style="display: flex;flex-direction: column;margin-top: 90px" >
+                    <a class="btn btn-secondary mt-1" href="" style="background-color: #996b27">Item 1</a>
+                    <a class="btn btn-secondary mt-1" href="" style="background-color: #996b27">Item 2</a>
+                    <a class="btn btn-secondary mt-1" href="" style="background-color: #996b27">Item 3</a>
+                </div>
+                <div class="col-10" style="margin-top: 28px">
+                    <table class="table table-striped">
+                        <thead class="masthead-brand" style="background-color: sienna">
+                        <tr >
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                            <th scope="col">Action</th>
+                        </tr >
+                        </thead>
+
+                        <tbody style="background-color: #CDCDCD">
+                        <tr class="contentPage">
+                            <th scope="row">1</th>
+                            <td>Vũ Minh</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        <tr class="contentPage">
+                            <th scope="row">2</th>
+                            <td>Vũ Lê Tường</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        <tr class="contentPage">
+                            <th scope="row">3</th>
+                            <td>Huỳnh Lê Phước Trí</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Phạm Thanh Hiếu</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        <tr class="contentPage">
+                            <th scope="row">3</th>
+                            <td>Nguyễn Hoàng Hưng</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        <tr class="contentPage">
+                            <th scope="row">3</th>
+                            <td>Dụng Văn Kiện</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>
+                                <a href="/NoteManagementServlet?action=view&id=${note.id}" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                                <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                                <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <ul id="pagination"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end content-->
+    <div class="footer" >
+        <div class="container-fluid">
+            <div class="row" >
+                <h3>Footer</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

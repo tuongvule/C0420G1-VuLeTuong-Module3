@@ -68,7 +68,7 @@ public class NoteManagementServlet extends HttpServlet {
     private void showDeleteNote(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
         Note note = iNoteBo.selectNote(id);
-        RequestDispatcher dispatcher= request.getRequestDispatcher("note/delete.jsp");
+        RequestDispatcher dispatcher= request.getRequestDispatcher("/note/deletecss.jsp");
         request.setAttribute("noteDelete",note);
         List<NoteType> noteTypeList = iNoteBo.selectAllNoteType();
         request.setAttribute("noteTypeList",noteTypeList);
