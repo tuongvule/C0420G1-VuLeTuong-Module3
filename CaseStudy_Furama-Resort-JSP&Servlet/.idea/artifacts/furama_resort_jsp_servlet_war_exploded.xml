@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="furama-resort-jsp-servlet" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../10_JSTL/jstl-1.2.jar/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../12_JDBC &amp; CRUD/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar" />
+        </element>
       </element>
     </root>
   </artifact>

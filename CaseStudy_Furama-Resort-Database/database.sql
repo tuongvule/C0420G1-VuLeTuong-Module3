@@ -19,6 +19,24 @@ truncate table positions;
 	('Manager'),
 	('Director');
 
+-- Tạo bảng user, role, user_role
+create table user(
+username varchar(255) primary key,
+password varchar(255)
+);
+
+create table role(
+id int primary key auto_increment,
+role_name varchar(255)
+);
+
+create table user_role(
+user_role_id int primary key auto_increment,
+role_id int,
+username varchar(255),
+foreign key (role_id) references role(id),
+foreign key (username) references user(username)
+);
 -- 2. Tạo bảng Trình độ
 
 create table degrees(

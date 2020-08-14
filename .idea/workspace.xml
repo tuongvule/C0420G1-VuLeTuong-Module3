@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed25a742-b044-45ff-a822-1a48dd03b403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/web/note/deletecss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/bo/CustomerBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/bo/CustomerBOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/bo/CustomerTypeBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/bo/CustomerTypeBOIplm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerTypeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerTypeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/model/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Furama Huy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Furama Vo Duc Viet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Furama Vu Le Tuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phan trang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/web/customer/customerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/web/customer/editCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editjsp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete (khong mat du lieu)/src/config/CharsetFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete (khong mat du lieu)/web/note/listcss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete (khong mat du lieu)/web/note/listcss.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/delete lam lai ( khong mat du lieu).iml" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/delete lam lai ( khong mat du lieu).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/WEB-INF/classes/controller/NoteManagementServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/WEB-INF/classes/controller/NoteManagementServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/artifacts/delete_lam_lai___khong_mat_du_lieu__war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/production/delete lam lai ( khong mat du lieu)/controller/NoteManagementServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/out/production/delete lam lai ( khong mat du lieu)/controller/NoteManagementServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/src/controller/NoteManagementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/src/controller/NoteManagementServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete lam lai ( khong mat du lieu)/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-Database/query_furama_resort_codegymdanang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-Database/query_furama_resort_codegymdanang.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootraptest.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootraptest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete (khong mat du lieu)/out/artifacts/15_case_study_jame_war_exploded/note/listcss.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/15_CaseStudy_iNotes/delete (khong mat du lieu)/out/artifacts/15_case_study_jame_war_exploded/note/listcss.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/.idea/artifacts/furama_resort_jsp_servlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/.idea/artifacts/furama_resort_jsp_servlet_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/furama-resort-jsp-servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/furama-resort-jsp-servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerTypeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/dao/CustomerTypeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/src/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy_Furama-Resort-JSP&amp;Servlet/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +54,7 @@
       <workItem from="1595772023544" duration="649000" />
       <workItem from="1596794633664" duration="1641000" />
       <workItem from="1596947384267" duration="20961000" />
-      <workItem from="1597151517179" duration="1301000" />
+      <workItem from="1597151517179" duration="8696000" />
     </task>
     <servers />
   </component>

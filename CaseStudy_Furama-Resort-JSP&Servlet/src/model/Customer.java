@@ -5,23 +5,34 @@ public class Customer {
     private String name;
     private String birthday;
     private String idCard;
-    private String salary;
     private String phoneNumber;
     private String email;
-    private String idCustomer;
+    private String address;
+    private String idCustomerType;
+
 
     public Customer() {
     }
 
-    public Customer(int id, String name, String birthday, String idCard, String salary, String phoneNumber, String email, String idCustomer) {
+    public Customer(String name, String birthday, String idCard, String phoneNumber, String email, String address, String idCustomerType) {
+        this.name = name;
+        this.birthday = birthday;
+        this.idCard = idCard;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+        this.idCustomerType = idCustomerType;
+    }
+
+    public Customer(int id, String name, String birthday, String idCard, String phoneNumber, String email, String address, String idCustomerType) {
         this.id = id;
         this.name = name;
         this.birthday = birthday;
         this.idCard = idCard;
-        this.salary = salary;
         this.phoneNumber = phoneNumber;
         this.email = email;
-        this.idCustomer = idCustomer;
+        this.address = address;
+        this.idCustomerType = idCustomerType;
     }
 
     public int getId() {
@@ -56,14 +67,6 @@ public class Customer {
         this.idCard = idCard;
     }
 
-    public String getSalary() {
-        return salary;
-    }
-
-    public void setSalary(String salary) {
-        this.salary = salary;
-    }
-
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -80,11 +83,19 @@ public class Customer {
         this.email = email;
     }
 
-    public String getIdCustomer() {
-        return idCustomer;
+    public String getAddress() {
+        return address;
     }
 
-    public void setIdCustomer(String idCustomer) {
-        this.idCustomer = idCustomer;
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getIdCustomerType() {
+        return idCustomerType;
+    }
+
+    public void setIdCustomerType(String idCustomerType) {
+        this.idCustomerType = idCustomerType;
     }
 }

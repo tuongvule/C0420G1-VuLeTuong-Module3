@@ -198,6 +198,7 @@
                         <a href="/NoteManagementServlet?action=delete&id=${note.id}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
 <%--                        <a href="/NoteManagementServlet?action=edit&id=${note.id}"><input type="submit" value="Edit"></a>--%>
 <%--                        <a href="/NoteManagementServlet?action=delete&id=${note.id}"><input type="submit" value="Delete"></a>--%>
+                        <a href="/NoteManagementServlet?action=edit&id=${note.id}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
                     </td>
                 </tr>
                 </c:forEach>

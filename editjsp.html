@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        $(document).on( "click", '.edit_button',function(e) {
+            var name = $(this).data('name');
+            var id = $(this).data('id');
+            var content = $(this).data('content');
+            var quote = $(this).data('quote');
+
+            $(".business_skill_id").val(id);
+            $(".business_skill_name").val(name);
+            $(".business_skill_quote").val(quote);
+            tinyMCE.get('business_skill_content').setContent(content);
+        });
+    </script>
+
+</head>
+<body>
+
+<table class="table table-striped table-bordered" id="store-table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Program Name</th>
+        <th>Content</th>
+        <th>Quote</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php $i = 1; foreach($business_skills as $business_skill):  ?>
+    <tr>
+        <td width="5%;"><?php echo $i; ?></td>
+        <td style="width:15%;"><?php echo $business_skill['name']; ?></td>
+        <td style="width:45%;"><?php echo $business_skill['content']; ?></td>
+        <td style="width:15%;"><?php echo $business_skill['quote']; ?></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-xs edit_button"
+                    data-toggle="modal" data-target="#myModal"
+                    data-name="<?php echo $business_skill['name'];?>"
+                    data-content="<?php echo htmlentities($business_skill['content']);?>"
+                    data-quote="<?php echo $business_skill['quote'];?>"
+                    data-id="<?php echo $business_skill['id']; ?>">
+                Edit
+            </button>
+            <button type="button" data-id="<?php echo $business_skill['id']; ?>"
+                    data-toggle="modal" data-target="#myModal3" class="btn btn-danger btn-xs delete_button">
+                Delete
+            </button>
+        </td>
+    </tr>
+    <?php $i++; endforeach; ?>
+    </tbody>
+</table>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Edit Skill</h4>
+            </div>
+            <form method="post" action="<?php echo base_url(); ?>admin/edit_business_skill">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input class="form-control business_skill_id" type="hidden" name="id">
+                        <input class="form-control business_skill_name" name="name" placeholder="Enter Skill" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control business_skill_content" type="hidden" name="content">
+                        <label for="heading">Enter program details</label>
+                        <textarea id="business_skill_content"  name="content"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control business_skill_quote" type="hidden" name="quote">
+                        <input class="form-control business_skill_quote" name="quote" placeholder="Enter Quote" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End of Modal for Edit button -->
+</body>
+</body>
+</html>
